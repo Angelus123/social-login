@@ -1,0 +1,121 @@
+.main {
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+  }
+  .facebook-icon{
+    margin-right: 40px;
+    font-size: 20px;
+    color: rgb(0, 153, 255);
+  }
+  .google-icon {
+    font-size: 20px;
+    margin-right: 42px;
+  }
+  
+  .btn-face-goo{
+    text-align: left;
+  }
+  
+  .login-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 42px;
+  }
+  
+  .login-form input {
+    background-color: #d5e2e844;
+    width: 300px;
+    margin-bottom: 20px;
+    height: 42px;
+    /* margin: 10px 0;  */
+  }
+  
+  .info-link {
+    display: flex;
+    /* margin: 10px 0; */
+    justify-content: center;
+    color: #286B87;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:17.07px;
+  }
+  
+  .info-link a {
+    color: #286B87;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  
+  .divider {
+    margin-top: 30px;
+    display: flex;
+  
+    justify-content: center;
+  }
+  
+  button{
+    width: 250px;
+  }
+  
+  hr {
+    width: 300px;
+    border: none;
+    border-top: 1px solid #88ADBC;
+    overflow: visible;
+    text-align: center;
+    height: 1px;
+    font-weight: 400;
+    margin-top: -5px;
+  }
+  
+  hr::after {
+    content: 'or';
+    padding: 0 6px;
+    position: relative;
+    top: -13px;
+    font-weight: 700;
+    background: #fff;
+    color: #286B87;
+  }
+  
+  .login-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-btn button {
+    line-height: 1 !important;
+  }
+  .btn-primary-mn {
+    background-color:#286B87;
+    color:white;
+    width: 300px;
+    height: 42px;
+    padding-bottom: 10px;
+  }
+  .btn-face-goo{
+    /* background-color:#286B87; */
+    margin: 5px 0;
+    width: 300px;
+    height: 42px;
+  
+  }
+  .show-error {
+    width: 250px;
+    color: red;
+    font-size: 12px;
+  }
+  
