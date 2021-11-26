@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  Width:100%;
+  padding: 20px 0;
+  background-color: #d5e2e84d;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.close-icon {
+  margin-right: 10px;
+  color:#286B87 ;
+  font-weight: 800;
+  cursor: pointer
+}
+.close-icon-min{
+  margin:0 5px;
+
+}
+.close-icon-close{
+  margin:0 5px;
+  
+}
