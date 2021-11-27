@@ -39,7 +39,7 @@ const SocialLogin = () => {
           <div className="login-btn">
             <button id="signIn" type="button" className="btn btn-primary-mn mt-3">
               Sign in &nbsp; &nbsp;
-             <span id="btn-spinner" className="ml-3 spinner-border spinner-border-sm" />}
+             <span id="btn-spinner" className="ml-3 spinner-border spinner-border-sm" />
             </button>
           </div>
 
